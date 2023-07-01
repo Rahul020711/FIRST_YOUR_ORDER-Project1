@@ -1,0 +1,1258 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap');
+
+
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+
+body {
+    background-image: url(./holiday-table-1926946.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+
+.container {
+    display: flex;
+}
+
+.logo img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    align-items: center;
+    margin-top: .5rem;
+    margin-left: 1rem;
+
+
+
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    margin-left: 0.3rem;
+    font-family: 'Creepster', cursive;
+    color: rgb(182, 37, 155);
+    font-size: 1.5rem;
+}
+
+.name span {
+    color: black;
+}
+
+
+.sidebar {
+
+    display: flex;
+    text-decoration: none;
+    font-family: 'Foldit', cursive;
+    font-family: 'Righteous', cursive;
+}
+
+.sidebar ul li {
+    list-style: none;
+    text-align: right;
+    display: flex;
+    /* padding-right: 2rem; */
+}
+
+.search {
+    display: flex;
+    align-items: center;
+}
+
+
+.search_food input[type="search"] {
+    padding: .3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    height: 2.17rem;
+    margin-top: .8rem;
+    margin-left: 1rem;
+
+
+}
+
+.search_location input[type="search"] {
+    padding: .3rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 20rem;
+    height: 2.17rem;
+    margin-top: .8rem;
+    margin-left: .3rem;
+
+
+}
+
+.search_food button[type="submit"] {
+    margin-left: 3px;
+    padding: 8px 12px;
+    background-color: #14c21a;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-top: .8rem;
+    min-height: 2.2rem;
+
+
+}
+
+.search_location button[type="submit"] {
+    margin-left: 3px;
+    padding: 8px 12px;
+    background-color: #14c21a;
+    color: white;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    margin-top: .8rem;
+    min-height: 2.2rem;
+
+
+}
+
+.search button[type="submit"]:hover {
+    background-color: #ffffff;
+    color: black;
+}
+
+.search-bar {
+    position: relative;
+    display: inline-block;
+}
+
+.search-bar input[type="search"] {
+    padding-right: 2rem;
+}
+
+.search-bar i {
+    position: absolute;
+    top: 50%;
+    right: 0.5rem;
+    transform: translateY(-50%);
+    color: gray;
+}
+
+.search_location {
+    margin-left: 2rem;
+
+
+}
+
+.home a {
+
+    display: flex;
+    text-decoration: none;
+    margin-left: 9rem;
+    color: rgb(0, 0, 0);
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+}
+
+.cart a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+}
+
+.contact a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.login {
+    display: flex;
+    align-items: center;
+}
+
+.login a {
+    text-decoration: none;
+    margin-left: 1rem;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    margin-top: 1.2rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.content {
+    display: flex;
+
+}
+
+.intro {
+    background-color: rgba(196, 187, 187, 0.5);
+    backface-visibility: visible;
+    min-height: 30rem;
+    border-radius: 10%;
+    margin: 2rem;
+    min-width: 35rem;
+}
+
+.intro h1 {
+    text-align: center;
+    align-items: center;
+    margin-top: 10rem;
+
+}
+
+span {
+    color: orange;
+}
+
+.intro p {
+    text-align: center;
+    align-items: center;
+    margin-top: 2rem;
+    justify-content: center;
+    font-size: 1rem;
+    color: #0c540f;
+
+
+}
+
+.intro h2 {
+    text-align: center;
+    align-items: center;
+    margin-top: 4rem;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: rgb(0, 0, 0);
+    font-family: 'Creepster', cursive;
+
+}
+
+.img img {
+    max-width: 50rem;
+    max-height: 50rem;
+    width: 35rem;
+    height: 35rem;
+    border-radius: 50%;
+    border: #14c21a;
+    margin-left: 15rem;
+    margin-top: 2rem;
+    opacity: .8;
+}
+
+.services {
+    display: flex;
+    margin: 1rem;
+    margin-left: 6rem;
+}
+
+.services .order_food button[type="submit"] {
+    border: .1rem solid rgb(211, 199, 199);
+    background-color: orange;
+    border-radius: 10%;
+    width: 12rem;
+    height: 1.9rem;
+    font-size: 1.4rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 0rem;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+.services .book_table button[type="submit"] {
+    border: .1rem solid rgb(211, 199, 199);
+    background-color: orange;
+    border-radius: 10%;
+    width: 12rem;
+    height: 1.9rem;
+    font-size: 1.4rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-left: 1rem;
+    cursor: pointer;
+    margin-bottom: 5rem;
+}
+
+.services .book_table button[type="submit"]:hover {
+    color: #d61919;
+    background-color: aliceblue;
+
+}
+
+.services .order_food button[type="submit"]:hover {
+    color: #d61919;
+    background-color: aliceblue;
+
+}
+
+.food {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.burger img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin-top: 2rem;
+
+}
+
+.burger {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.burger p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+
+
+}
+
+.burger a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+}
+
+.burger p span {
+    margin-left: .2rem;
+    color: #ffffff;
+}
+
+
+.chicken_noodles img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin-top: 2rem;
+}
+
+.chicken_noodles {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.chicken_noodles p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.chicken_noodles a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+}
+
+.chicken_noodles p span {
+    margin-left: .1rem;
+    color: #fff7f7;
+}
+
+.veg_noodles img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.veg_noodles {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.veg_noodles p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.veg_noodles a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+}
+
+.veg_noodles p span {
+    margin-left: .2rem;
+    color: #fefafa;
+}
+
+.maggi img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.maggi {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.maggi p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.maggi a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+}
+
+.maggi p span {
+    margin-left: .2rem;
+    color: #fff9f9;
+}
+
+.kadhai_paneer img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.kadhai_paneer {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.kadhai_paneer p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.kadhai_paneer p span {
+    margin-left: .2rem;
+    color: #ffffff;
+}
+
+.kadhai_paneer a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+}
+
+.masala_paneer img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.masala_paneer {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.masala_paneer p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.masala_paneer a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+    margin-bottom: 2rem;
+}
+
+.masala_paneer p span {
+    margin-left: .2rem;
+    color: #fff3f3;
+}
+
+.kadhaic img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.kadhaic {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.kadhaic p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.kadhaic a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+}
+
+.kadhaic p span {
+    margin-left: .2rem;
+    color: #ffffff;
+}
+
+.tandoori img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.tandoori {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.tandoori p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+}
+
+.tandoori a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+}
+
+.tandoori p span {
+    margin-left: .2rem;
+    color: #ffffff;
+}
+
+.chickenb img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.chickenb {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+}
+
+.chickenb p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.chickenb a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+
+}
+
+.chickenb p span {
+    margin-left: .2rem;
+    color: #fffafa;
+}
+
+.roti img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.roti {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.roti p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.roti a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+
+}
+
+.roti p span {
+    margin-left: .2rem;
+    color: #ffffff;
+}
+
+.lachhap img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+
+    margin-top: 2rem;
+}
+
+.lachhap {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+
+}
+
+.lachhap p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.lachhap a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+
+}
+
+.lachhap p span {
+    margin-left: .2rem;
+    color: #fffdfd;
+}
+
+.buttern img {
+    max-width: 10rem;
+    max-height: 10rem;
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 2rem;
+
+}
+
+.buttern {
+    list-style: none;
+    margin-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(80, 58, 30, 0.5);
+    border: .1rem solid rgb(243, 238, 238);
+    margin-left: 10rem;
+    width: 20rem;
+    height: 17rem;
+    align-items: center;
+    border-radius: 10%;
+    margin-bottom: 2rem;
+
+}
+
+.buttern p {
+    margin: -1rem;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+    margin-bottom: 2rem;
+}
+
+.buttern a {
+    font-size: 2rem;
+    color: #000000;
+    margin-left: .3rem;
+    font-size: 1rem;
+    background-color: orange;
+    color: rgb(0, 0, 0);
+    margin-left: 0.3rem;
+    border: 0.1rem solid rgb(224, 224, 228);
+    border-radius: 20%;
+
+}
+
+.buttern p span {
+    margin-left: .2rem;
+    color: #ffffff;
+}
+
+#discription {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ccc;
+    border: #000000 solid 0.1rem;
+    margin-top: 2rem;
+
+
+}
+
+.roomtype {
+    display: flex;
+
+}
+
+.roomtype .ac {
+    margin: 2rem 0 0 4rem;
+    font-size: 1rem;
+    border: whitesmoke solid 0.2rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #ecf2f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: orange;
+}
+
+.roomtype .non_ac {
+    margin: 2rem 0 0 0rem;
+    font-size: 1.2rem;
+    border: whitesmoke solid 0.2rem;
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #ecf2f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: orange;
+    margin-left: 38rem;
+}
+
+.bookyourtable {
+    display: flex;
+}
+
+.nonac_table {
+    margin-left: 5rem;
+    border: orange solid .2rem;
+    width: 40rem;
+    border-radius: 30%;
+    margin-bottom: 4rem;
+    padding: 1rem;
+}
+
+.ac_table {
+    border: orange solid .2rem;
+    width: 40rem;
+    border-radius: 30%;
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
+
+.tables {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+}
+
+.tables li {
+    display: flex;
+    border: .2rem solid whitesmoke;
+    border-radius: 100%;
+    height: 6rem;
+    width: 6rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 1rem;
+    background-color: #b9b9b6;
+    margin: 2rem 2rem 2rem 0rem;
+
+}
+
+.bookyourtable .tables h3 a button {
+    border: .1rem solid rgb(211, 199, 199);
+    background-color: orange;
+    border-radius: 10%;
+    width: 7rem;
+    height: 1.4rem;
+    /* text-align: center; */
+    align-items: center;
+    justify-content: center;
+    font-family: 'Chakra Petch', sans-serif;
+    cursor: pointer;
+
+}
+.login_bar h1{
+    text-align: center;
+    margin-top: 3rem;
+}
+.login_bar{
+    background-color: rgb(167, 167, 176);
+    height: 100%;
+    width: 30rem;
+    margin-top: 2rem;
+    border-radius: 10%;
+   
+
+}
+.login_page{
+    display: flex;
+    justify-content: center;
+}
+.login_page img{
+    max-width: 40rem;
+    max-height: 40rem;
+    width: 40rem;
+    margin-left: 15rem;
+    opacity: .7;
+    border-radius: 50%;
+    margin-top: 2.2rem;
+}
+.login_bar img{
+    max-width: 25rem;
+    max-height: 20rem;
+    height: 10rem;
+    width: 10rem;
+    border-radius: 100%;
+    margin: 1rem 0 2rem 10rem;
+}
+.login_form {
+    display: flex;
+    flex-direction: column;
+    font-size: 1rem;
+    justify-content: center;
+   
+  }
+  .login_form h3{
+    margin: .5rem 0rem 0rem 5rem;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  .login_form ::placeholder{
+    font-size: 1rem;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  .login_form input {
+    font-size: 2rem;
+    width: 20rem;
+    border-radius: 10%;
+    margin-left: 5rem;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+
+  .button button[type="submit"] {
+    background-color: orange;
+    color: #ffffff;
+    border: none;
+    border-radius: 20%;
+ border: #000000 solid .1rem;
+ font-size: 1.5rem;
+    cursor: pointer;
+    margin:0rem 0rem 4rem 7.5rem;
+    width: 15rem;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  .button button[type="submit"]:hover{
+    color: rgb(0, 0, 0);
+    background-color: #c3bebe;
+  }
+  ::placeholder{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+
+.getintouch{
+  
+    width: 25rem;
+    background-color: #521c1c;
+    border:.2rem solid rgb(214, 209, 209);
+    border-radius: 20%;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 7rem;
+}
+
+.contactbar {
+  
+    display: flex;
+  }
+  
+ 
+  .getintouch h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    margin-top: 2rem;
+    color: white;
+  }
+  
+  
+  .address .addbar ,.phoneno .noicon ,.Email .emailic {
+    display: flex;
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+  }
+  
+  .address .addbar i ,.phoneno .noicon i,.Email .emailic i {
+    font-size: 16px;
+    color: #ffffff;
+    margin-right: 10px;
+  }
+  
+  .address h2, .phoneno h2, .Email h2 {
+ 
+    font-weight: bold;
+    margin: 0;
+    color: orange;
+  }  
+  
+  .address h3, .phoneno h3, .Email h3{
+   
+ 
+    margin: 0;
+    color: white;
+    margin-bottom: 1rem;
+ 
+  }
+.phoneno h3, .Email h3{
+     cursor: pointer;
+}
+
+.letsconnect{
+    width: 25rem;
+    background-color: #521c1c;
+    border:.2rem solid rgb(214, 209, 209);
+    border-radius: 20%;
+    text-align: center;
+    margin-left: 15rem;
+    margin-top: 7rem;
+}
+
+.letsconnect .heading {
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald', sans-serif;
+   margin-top: 2rem;
+   margin-right: 2rem;
+    text-align: center;
+    font-size: 24px;
+
+}
+
+.letsconnect form {
+    max-width: 40rem;
+    margin: 1rem auto;
+    text-align: center;
+    margin-bottom: 3rem;
+    width: 20rem;
+}
+
+.letsconnect form .input-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+
+
+}
+.letsconnect form .input-box ::placeholder  {
+    text-align: left;
+}
+
+
+textarea:not(.has-value)::placeholder {
+    text-align: left;
+}
+
+
+.letsconnect form .input-box input,
+.letsconnect form textarea {
+    width: 100%;
+    font-size: 1.2rem;
+    color: rgb(6, 6, 6);
+    background-color:5rem;
+    margin: .2rem 0;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+.btttn {
+    background-color: #0adada;
+    background: transparent;
+    border: .1rem solid aqua;
+    border-radius: 1rem;
+    width: 150px;
+    height: 40px;
+    max-width: 19rem;
+    max-height: 5rem;
+    color: aliceblue;
+    font-family: 'Oswald', sans-serif;
+    cursor: pointer;
+
+}
+
+
+
+.btttn:hover {
+    background-color: rgb(128, 136, 136);
+}
+ 
+  
